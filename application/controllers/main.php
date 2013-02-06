@@ -13,7 +13,8 @@ class Main extends CI_Controller {
             
             
             $data['title']='Nial_Erp';
-		$this->load->view('main',$data);
+		$this->load->view('view_home',$data);
+                
 	}
 }
 
